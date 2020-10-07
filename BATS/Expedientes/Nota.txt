@@ -1,0 +1,1 @@
+abrir expedientes tiene una ruta quemada y debe ser en la que se encuentre el .bat
