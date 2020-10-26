@@ -1,0 +1,36 @@
+============ REQUERIMIENTOS ================
+
+- Se necesita que la máquina linux tenga aws cli
+- Se necesita que esten configuradas las credenciales de aws
+
+
+============ EXPRESIONES CRON ==============
+
+==== TEST
+
+= testECSOff
+ 
+- dar permisos: sudo chmod +x testECSOff.sh
+
+0 18 * * 1-5 sudo /home/desarrollo/bash/./testECSOff.sh
+
+= testECSOn
+
+- dar permisos: sudo chmod +x testECSOn.sh
+
+0 8 * * 1-5 sudo /home/desarrollo/bash/./testECSOn.sh
+
+
+==== PROD
+
+= prodECSOff
+
+- dar permisos: sudo chmod +x prodECSOff.sh
+
+0 18 * * * sudo /home/desarrollo/bash/./prodECSOff.sh
+
+= prodECSOn
+
+- dar permisos: sudo chmod +x prodECSOn.sh
+
+0 8 * * * sudo /home/desarrollo/bash/./prodECSOn.sh
