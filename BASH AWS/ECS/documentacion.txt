@@ -2,9 +2,14 @@
 
 - Se necesita que la máquina linux tenga aws cli
 - Se necesita que esten configuradas las credenciales de aws
+- El usuario con el que se corran los permsos debe tener en visudo -> ALL=(ALL) NOPASSWD: ALL
 
 
 ============ EXPRESIONES CRON ==============
+
+==== CRON
+
+PATH=/usr/bin:/usr/local/bin
 
 ==== TEST
 
@@ -12,13 +17,13 @@
  
 - dar permisos: sudo chmod +x testECSOff.sh
 
-0 18 * * 1-5 sudo /home/desarrollo/bash/./testECSOff.sh
+0 18 * * 1-5 sudo /bin/bash /home/desarrollo/bash/testECSOff.sh
 
 = testECSOn
 
 - dar permisos: sudo chmod +x testECSOn.sh
 
-0 8 * * 1-5 sudo /home/desarrollo/bash/./testECSOn.sh
+0 8 * * 1-5 sudo /bin/bash /home/desarrollo/bash/testECSOn.sh
 
 
 ==== PROD
@@ -27,10 +32,10 @@
 
 - dar permisos: sudo chmod +x prodECSOff.sh
 
-0 18 * * * sudo /home/desarrollo/bash/./prodECSOff.sh
+0 3 * * * sudo /bin/bash /home/desarrollo/bash/prodECSOff.sh
 
-= prodECSOn
+= prodECSOnOne
 
 - dar permisos: sudo chmod +x prodECSOn.sh
 
-0 8 * * * sudo /home/desarrollo/bash/./prodECSOn.sh
+45 20 * * * sudo /bin/bash /home/desarrollo/bash/prodECSOn.sh

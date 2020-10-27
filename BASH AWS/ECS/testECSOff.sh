@@ -1,4 +1,5 @@
 #!/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 
 CLUSTER_NAME="cluster-receptor"
 SERVICE_NAME="ser-api-rest"
