@@ -33,6 +33,10 @@
 | MT117   | Nota de debito no debe certificarse                |
 | TDA-224 | Codigo de referencia repetido ya enviado           |
 | MT500   | CONCEPTO NEGATIVO INVALIDO  TEMPORAL               |
+| MT644   | IVA Calculado de manera incorrecta                 |
+| MT651   | IVA no puede ser mayor al del documento origen     |
+| MT697   | Gran Total Mayor al del documento origen           |
+| MT739   | ID Receptor no es igal el documento origen         |
 | MT999   | SIN CONTIGENCIA                                    |
 
 ## Tipos de Procesos
