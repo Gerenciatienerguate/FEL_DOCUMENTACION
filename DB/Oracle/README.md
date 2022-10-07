@@ -31,12 +31,15 @@
 | MT115   | No se pudo obteener nro de autorizacion antiguo    |
 | MT116   | Factura antigua que no debe certificarse           |
 | MT117   | Nota de debito no debe certificarse                |
+| TDA-215 | Total calculado incorrectamente para el IVA        |
+| TDA-222 | Formato de Numero de Serie Incorrecto              |
 | TDA-224 | Codigo de referencia repetido ya enviado           |
 | MT500   | CONCEPTO NEGATIVO INVALIDO  TEMPORAL               |
 | MT644   | IVA Calculado de manera incorrecta                 |
 | MT651   | IVA no puede ser mayor al del documento origen     |
 | MT697   | Gran Total Mayor al del documento origen           |
-| MT739   | ID Receptor no es igal el documento origen         |
+| MT737   | Documento Origen no es una factura                 |
+| MT739   | ID Receptor no es igual el documento origen        |
 | MT999   | SIN CONTIGENCIA                                    |
 
 ## Tipos de Procesos
